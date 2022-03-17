@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Montserrat:wght@200&family=Noto+Sans&display=swap');
+$p_color:#6d7e6d;
+$f_color:#ffffff;
+$s_color:#805280;
+$b_color:#2d122d;
+$main-width:1000;
+@function half($width){
+    @return $width/2 + px;
+}
+$base_fontsize:15px;
+
+
+
+*{
+    margin:0;
+    padding:0;
+    
+}
+body{
+    background-color: $b_color;
+}
+
+    
+    //background-image: linear-gradient($b_color 80% ,$s_color 20%);
+    
+
+    
+    
+
+header{
+    margin-top: 30px;
+    text-align: center;
+    
+
+    .iconify{
+        font-size: 40px;
+    }
+    
+}
+.title{
+    font-family:'Noto Sans', sans-serif;
+    text-align: center;
+    line-height: 40px;
+    h1{
+        font-size: 25px;
+        color: $p_color;
+    }
+    h2{
+        font-size:$base_fontsize+4px ;
+        color:$f_color;
+
+    }
+    button{
+        padding:8px;
+        margin-right: 18px;
+        color:$f_color ;
+        background-color:$s_color;
+    }
+
+}
+.main-content{
+    margin:20px 40px 0 40px;
+    display: grid;
+   // grid-template-columns: 1fr 1fr 1fr;
+    gap:60px;
+   //background-color: $p_color;
+
+    .first-content{
+        background-color: $p_color;
+        padding:10px;
+        width:half($main-width);
+        border-radius:
+    }
+    
+}
+

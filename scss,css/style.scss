@@ -1,0 +1,50 @@
+$pcolor : #87ceeb;
+$b_color: #00ffff;
+$border_color:#808080;
+$font_size : 12px;
+$font_scale: 1.5;
+
+
+*{
+    margin:0;
+    padding :0;
+}
+header{
+    background-color:$pcolor;
+    text-align: center;
+    margin:10px 20px ;
+    padding:10px;
+   
+    ul{
+        display:flex;
+        justify-content: center;
+        justify-content: space-evenly;
+        text-decoration: none;
+        margin-top: 10px;
+        li{
+            list-style: none;
+            font-size:23px ;
+            border:2px solid $border_color;
+            padding: 5px;
+            border-radius: 10px;
+            &:hover{
+                background-color:$b_color;
+            
+            }
+        }
+        
+    }
+}
+.content{
+    margin: 10px 20px;
+    h2{
+        font-size: $font_size * $font_scale;
+        text-align: center;
+ 
+     
+     }
+    p{
+        font-size: $font_size;
+    }
+
+}
